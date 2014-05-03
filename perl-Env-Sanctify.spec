@@ -1,15 +1,16 @@
 %define upstream_name    Env-Sanctify
-%define upstream_version 1.06
+%define upstream_version 1.12
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Lexically scoped sanctification of %ENV
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Env/Env-Sanctify-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Env/%{upstream_name}-%{upstream_version}.tar.gz
 Source1:	%{name}.rpmlintrc
 
 BuildRequires:	perl-devel
@@ -45,16 +46,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
 
-%changelog
-* Sat Apr 16 2011 Funda Wang <fwang@mandriva.org> 1.40.0-2mdv2011.0
-+ Revision: 653594
-- rebuild for updated spec-helper
-
-* Sat Aug 14 2010 Jérôme Quelin <jquelin@mandriva.org> 1.40.0-1mdv2011.0
-+ Revision: 569762
-- import perl-Env-Sanctify
-
-
-* Sat Aug 14 2010 cpan2dist 1.04-1mdv
-- initial mdv release, generated with cpan2dist
 
