@@ -13,6 +13,7 @@ Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Env/%{upstream_name}-%{upstream_version}.tar.gz
 Source1:	%{name}.rpmlintrc
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
 BuildRequires:	perl(Test::More)
