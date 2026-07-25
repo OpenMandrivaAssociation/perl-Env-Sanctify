@@ -2,15 +2,15 @@
 %define upstream_version 1.12
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	Lexically scoped sanctification of %ENV
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Env/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/bingos/env-sanctify
+Source0:	https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Env-Sanctify-%{upstream_version}.tar.gz
 Source1:	%{name}.rpmlintrc
 
 BuildRequires:	make
