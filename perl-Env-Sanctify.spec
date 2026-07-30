@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	1.12
-Release:	2
+Release:	3
 
 Summary:	Lexically scoped sanctification of %ENV
 
