@@ -3,14 +3,14 @@
 
 Name:		perl-%{upstream_name}
 Version:	%{upstream_version}
-Release:	4
+Release:	1
 
 Summary:	Lexically scoped sanctification of %ENV
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/bingos/env-sanctify
-Source0:	https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Env-Sanctify-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Env-Sanctify-1.12.tar.gz
 Source1:	%{name}.rpmlintrc
 
 BuildRequires:	make
